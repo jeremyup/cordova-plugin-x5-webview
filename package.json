@@ -1,0 +1,44 @@
+{
+  "name": "cordova-plugin-x5-webview",
+  "version": "3.1.0",
+  "description": "Changes the default WebView to Tencent X5 WebView",
+  "cordova": {
+    "id": "cordova-plugin-x5-webview",
+    "platforms": [
+      "android"
+    ]
+  },
+  "keywords": [
+    "cordova",
+    "chromium",
+    "x5",
+    "webview",
+    "tbs",
+    "ecosystem:cordova",
+    "cordova-android"
+  ],
+  "engines": [
+    {
+      "name": "cordova-android",
+      "version": ">=4"
+    },
+    {
+      "name": "cordova-plugman",
+      "version": ">=5.2.0"
+    }
+  ],
+  "author": "Jeremy <swang0619@gmail.com>",
+  "license": "Apache-2.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jeremyup/cordova-plugin-x5-webview.git"
+  },
+  "bugs": {
+    "url": "https://github.com/jeremyup/cordova-plugin-x5-webview/issues"
+  },
+  "homepage": "https://github.com/jeremyup/cordova-plugin-x5-webview#readme"
+}
