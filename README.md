@@ -24,4 +24,5 @@ Open an existing cordova project, with cordova-android 4.0.0+, and using the lat
 ``$ cordova plugin add cordova-plugin-x5-webview``<br/>  
 Build    
 ``$ cordova build android``
-<br/> The build script will automatically fetch the X5 WebView libraries from X5 project download site (https://www.npmjs.com/package/cordova-plugin-x5-webview) and build for both X86 and ARM architectures.
+
+The build script will automatically fetch the X5 WebView libraries from X5 project download site (https://www.npmjs.com/package/cordova-plugin-x5-webview) and build for both X86 and ARM architectures.
