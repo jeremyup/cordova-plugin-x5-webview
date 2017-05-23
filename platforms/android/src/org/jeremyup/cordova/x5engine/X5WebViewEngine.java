@@ -119,6 +119,11 @@ public class X5WebViewEngine implements CordovaWebViewEngine {
                 X5WebViewEngine.this.cordova.getActivity().runOnUiThread(r);
             }
         }));
+        /* Pay attention:
+         * Error maybe occur here!!!
+         * If your cordova-android version below 6+,this method about EvalBridgeMode() may be not existed.
+         * Please comment out below the lines 126-127.
+        */
         if(Build.VERSION.SDK_INT > Build.VERSION_CODES.JELLY_BEAN_MR2)
             nativeToJsMessageQueue.addBridgeMode(new NativeToJsMessageQueue.EvalBridgeMode(this, cordova));
 	bridge = new CordovaBridge(pluginManager, nativeToJsMessageQueue);

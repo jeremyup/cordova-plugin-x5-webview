@@ -46,6 +46,8 @@
     </platform>
 
     <info>
-        Upgrade TBS by yourself.
+        If X5 version has upgraded,you can update TBS(.so and .jar) by yourself.
+        To contact me for any problems about this cordova-plugin-x5-webview!
+        https://github.com/jeremyup/cordova-plugin-x5-webview/issues
     </info>
 </plugin>
